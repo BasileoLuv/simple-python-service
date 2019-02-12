@@ -16,7 +16,7 @@ After this step you can create wheel
 python setup.py sdist bdist_wheel
 ```
 
-# How to install dependencies
+# How to install dependencies 
 ```
 python setup.py install
 ```
