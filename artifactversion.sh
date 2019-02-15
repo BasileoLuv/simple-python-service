@@ -17,5 +17,4 @@ function generate_bumped_setup()
    current_version=$(extract_version_without_snapshot setup.py)
    new_version=$(bump_hotfix_version $current_version)
    sed "s/version=.*/version=$new_version-SNAPSHOT',/g" setup.py >1.txt
-   mv 1.txt setup.py
 }
