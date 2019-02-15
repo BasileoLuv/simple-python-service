@@ -15,13 +15,14 @@ class Install(InstallCommand):
 
 setup(
     name="Python-Calculator",
-    version='0.4-SNAPSHOT',
+    version='0.4.1-SNAPSHOT',
     packages=['calc'],
     test_suite="tests",
     scripts=[
         'calculator_app.py',
         'service.py',
         'README.md',
-        'newcommit.txt'],
+        'newcommit.txt',
+        'artifactversion.sh'],
     install_requires=['Flask'],
 )

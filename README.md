@@ -16,7 +16,7 @@ After this step you can create wheel
 python setup.py sdist bdist_wheel
 ```
 
-# How to install dependencies
+# How to install dependencies 
 ```
 python setup.py install
 ```
@@ -37,6 +37,5 @@ git show --summary | awk '{print $2}' | head -1 >newcommit.txt && python setup.p
 
 # How to upgrade version
 ```
-current_version=$(artifactversion.sh && extract_version_without_snapshot setup.py)
-source artifactversion.sh && generate_bumped_setup
+bash artifactversion.sh 
 ```
