@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/sh
 
 function extract_version_without_snapshot(){
    grep version $1 | cut -d= -f2 | cut -d- -f1 
