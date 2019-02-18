@@ -23,6 +23,6 @@ setup(
         'service.py',
         'README.md',
         'newcommit.txt',
-        'artifactversion.sh'],
+        'artifactvers.sh'],
     install_requires=['Flask'],
 )
