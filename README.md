@@ -39,3 +39,6 @@ git show --summary | awk '{print $2}' | head -1 >newcommit.txt && python setup.p
 ```
 bash artifactvers.sh 
 ```   
+
+
+test
