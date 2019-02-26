@@ -25,4 +25,3 @@ setup(
         'newcommit.txt'],
     install_requires=['Flask'],
 )
-
